@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>den4444 | Разработка сайтов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="particlesCanvas"></canvas>
+    
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <button class="scroll-top" id="scrollTop">↑</button>
+    <button class="theme-toggle" id="themeToggle">◐</button>
+
+    <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#hero" class="menu-link">Главная</a></li>
+            <li><a href="#about" class="menu-link">Обо мне</a></li>
+            <li><a href="#works" class="menu-link">Мои работы</a></li>
+            <li><a href="#contact" class="menu-link">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="glitch-wrapper">
+                    <h1 class="name glitch" data-text="den4444">den4444</h1>
+                </div>
+                <div class="typing-wrapper">
+                    <p class="tagline" id="typingText"></p>
+                </div>
+                <div class="scroll-indicator">
+                    <span class="scroll-text">Листай вниз</span>
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2 class="about-title">Обо мне</h2>
+                <p class="about-text">
+                    Создаю красивые, современные и удобные сайты, которые отражают суть вашего бизнеса. 
+                    Продумываю структуру, визуал, адаптацию под все устройства и скорость загрузки.
+                </p>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon-wrapper">
+                            <span class="service-icon">✦</span>
+                        </div>
+                        <span class="service-name">Сайт</span>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon-wrapper">
+                            <span class="service-icon">✦</span>
+                        </div>
+                        <span class="service-name">Логотип</span>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon-wrapper">
+                            <span class="service-icon">✦</span>
+                        </div>
+                        <span class="service-name">Прототип</span>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon-wrapper">
+                            <span class="service-icon">✦</span>
+                        </div>
+                        <span class="service-name">Поддержка</span>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">▹</div>
+                        <p>Индивидуальный подход под ваши задачи и бюджет</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">▹</div>
+                        <p>Вы сами предлагаете цену и выбираете интенсивность работы</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">▹</div>
+                        <p>Поддержка после запуска и исправление недочётов</p>
+                    </div>
+                </div>
+                <div class="about-contact">
+                    <p>Можете заказать один компонент или любой набор - подстроюсь под вас</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="works" id="works">
+            <div class="section-title">
+                <h2>Мои работы</h2>
+            </div>
+            <div class="works-grid" id="worksGrid"></div>
+        </section>
+
+        <footer class="footer" id="contact">
+            <div class="footer-content">
+                <p>© 2025 den4444 | Создаю современные сайты</p>
+                <div class="social-links">
+                    <a href="https://t.me/d3n4444" target="_blank" class="social-link" rel="noopener noreferrer">
+                        <span>Telegram</span>
+                    </a>
+                    <a href="mailto:denisteterin2023@gmail.com" class="social-link">
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
